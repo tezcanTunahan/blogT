@@ -1,0 +1,22 @@
+.goDown{
+    position: sticky;
+    top: 100px;
+    left: 700px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.goDown:hover{
+    background-color: white;
+    color: red;
+    transition: all 1s;
+}
+
+@media screen and (min-width: 870px) {
+    .goDown{
+        display: none;
+    }
+  }

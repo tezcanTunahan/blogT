@@ -1,0 +1,22 @@
+.welcomeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.welcomeH1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.welcomeImg{
+    width: 42vw;
+}
+@media only screen and (max-width: 870px) {
+  .welcomeContainer{
+    flex-direction: column;    
+    height: 80vh;
+    justify-content: space-evenly;
+  }
+}
+  

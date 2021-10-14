@@ -1,0 +1,63 @@
+.authContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.authForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signin-btn{
+    background-color: ghostwhite;
+    margin-bottom: 15px;
+    width: 250px;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+}
+.signin-btn:hover{
+    color: red;
+    transition: all 1s;
+}
+.signup-btn{
+    background-color: ghostwhite;
+    margin-bottom: 25px;
+    width: 250px;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+}
+.signup-btn:hover{
+    color: red;
+    transition: all 1s;
+}
+.google-btn{
+    width: 250px;
+}
+.email{
+    width: 250px;
+    margin-bottom: 12px;
+}
+.password{
+    width: 250px;
+    margin-bottom: 25px;
+}
+.firstName{
+    width: 250px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+.lastName{
+    width: 250px;
+    margin-bottom: 25px;
+}
+.sign-title{
+    margin-bottom: 50px;
+}

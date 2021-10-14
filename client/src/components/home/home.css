@@ -1,0 +1,26 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    flex: 8;
+}
+.right{
+    flex: 2;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    position: sticky;
+    top: 100px;
+}
+.login-img{
+    width: 30vw;
+}
+
+@media screen and (max-width: 870px) {
+    .home-container{
+        flex-direction: column;
+    }
+  }
